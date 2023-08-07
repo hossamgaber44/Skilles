@@ -1,0 +1,198 @@
+/*
+======================
+     log in
+======================
+*/
+.log-in-bg {
+    background: rgba(0, 0, 0, .5);
+    height: 110vh;
+    width: 100%;
+    position: fixed;
+    z-index: 999999;
+    top: 0px;
+    right: 0px;
+    display: none;
+}
+
+.popup {
+    position: fixed;
+    height: 110vh;
+    top: 0px;
+    left: 0px;
+    z-index: 999999;
+    width: 100%;
+}
+
+.popup .log {
+    margin: auto;
+    margin-top: 12vh;
+    width: 400px;
+    height: 480px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    background: #ffffffbb;
+    font-family: cursive;
+    color: white;
+}
+
+.popup .log input {
+    padding: 11px 22px;
+    margin: 20px 0px;
+    border-radius: 8px;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: all 0s ease-in-out;
+    background-color: #ffffff;
+    color: #000000;
+    width: 85%;
+}
+
+.popup .log .btt {
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 7px 22px;
+    margin: 36px 4px 18px;
+    width: fit-content;
+    font-size: 22px;
+    background: #24d2fe;
+    font-family: cursive;
+    width: fit-content;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.popup .log .popup-img {
+    border-radius: 50%;
+    margin: auto;
+    padding: -20px;
+    width: 115px;
+    margin-top: -35px;
+    overflow: hidden;
+}
+
+.popup .log img {
+    background: #dbdbdb;
+
+}
+
+.popup .log h2 {
+    padding: 8px 2px;
+    color: #000000;
+}
+
+.popup .log input:hover {
+    border: 2px solid rgb(1, 181, 187);
+}
+
+.popup .log .createAccount {
+    color: #000000;
+    opacity: 1;
+    font-size: 15px;
+}
+
+.popup .log .createAccount a {
+    color: blue;
+    margin-left: 4px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/***********/
+.createAccount-page {
+    position: fixed;
+    height: 110vh;
+    top: 0px;
+    left: 0px;
+    z-index: 999999;
+    width: 100%;
+    background: rgba(0, 0, 0, .5);
+    display: none;
+}
+
+.createAccount-page .log {
+    margin: auto;
+    margin-top: 12vh;
+    width: 400px;
+    height: 524px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    background: #ffffffbb;
+    font-family: cursive;
+    color: white;
+}
+
+.createAccount-page .log input {
+    padding: 11px 22px;
+    margin: 8px 0px;
+    border-radius: 8px;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: all 0s ease-in-out;
+    background-color: #ffffff;
+    color: #000000;
+    width: 85%;
+}
+
+.createAccount-page .log .btt {
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 7px 22px;
+    margin: 20px 4px 18px;
+    width: fit-content;
+    font-size: 22px;
+    background: #24d2fe;
+    font-family: cursive;
+    width: fit-content;
+}
+
+.createAccount-page .log .popup-img {
+    border-radius: 50%;
+    margin: auto;
+    padding: -20px;
+    width: 115px;
+    margin-top: -35px;
+    overflow: hidden;
+}
+
+.createAccount-page .log img {
+    background: #dbdbdb;
+
+}
+
+.createAccount-page .log h2 {
+    padding: 8px 2px;
+    color: #000000;
+}
+
+.createAccount-page .log input:hover {
+    border: 2px solid rgb(1, 181, 187);
+}
+
+.createAccount-page .log .createAccount {
+    color: #000000;
+    opacity: 1;
+    font-size: 15px;
+}
+
+.createAccount-page .log .createAccount a {
+    color: blue;
+    margin-left: 4px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.d-hidden {
+    display: none;
+}
+
+@media(max-width:440px) {
+
+    .popup .log,
+    .createAccount-page .log {
+        margin-top: 36px;
+        width: 96%;
+        height: auto;
+    }
+}
